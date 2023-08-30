@@ -15,3 +15,4 @@ class Pub:
 
         if age < 18:
             print("Sorry, I cannot sell you alcohol!")
+            pass
