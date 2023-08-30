@@ -6,12 +6,12 @@ class TestCustomer(unittest.TestCase):
 
     def setUp(self):
 
-        self.drink_1 = Drink("Fanta", 3)
+        self.drink_1 = Drink("liquor", 3)
         self.drink_2 = Drink("beer", 3)
         self.drink_3 = Drink("wine", 3)
 
-        self.customer = Customer("BobTheSnob", 100000)
-        
+        self.customer = Customer("BobTheSnob", 100000, 17)
+
 
     def test_clear_my_tab(self):
 
