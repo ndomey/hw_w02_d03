@@ -11,4 +11,3 @@ class TestDrink(unittest.TestCase):
 
     def test_drink_has_name(self):
         self.assertEqual("liquor", self.drink_1.name)
-

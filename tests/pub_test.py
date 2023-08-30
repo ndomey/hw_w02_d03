@@ -31,3 +31,7 @@ class TestPub(unittest.TestCase):
 
     def test_check_age(self):
         self.pub.check_age(self.customer_1.age)
+
+
+    def test_drunk(self):
+        self.pub.drunk(self.customer_1.drunkenness)

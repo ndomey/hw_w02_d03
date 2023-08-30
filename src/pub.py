@@ -16,3 +16,10 @@ class Pub:
         if age < 18:
             print("Sorry, I cannot sell you alcohol!")
             pass
+
+
+    def drunk(self, drunkenness):
+        
+        if drunkenness > 10:
+            print("I think you've had enough, have some water!")
+            pass

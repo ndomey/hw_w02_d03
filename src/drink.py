@@ -1,4 +1,3 @@
-
 class Drink:
     def __init__(self, drink_name, price, alcohol_level):
 

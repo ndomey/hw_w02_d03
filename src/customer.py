@@ -22,8 +22,6 @@ class Customer:
         self.drunkenness += drink
 
 
-    def drunk(self, drunkenness):
-        
-        if drunkenness > 10:
-            print("I think you've had enough, have some water!")
-            
+    def eating(self, food):
+
+        self.drunkenness -= food
