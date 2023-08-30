@@ -1,11 +1,15 @@
 import unittest
 from src.pub import Pub
+from src.drink import Drink 
 
 class TestPub(unittest.TestCase):
     
     def setUp(self):
+        self.drink_1 = Drink("Fanta", 3)
+        self.drink_2 = Drink("beer", 3)
+        self.drink_3 = Drink("wine", 3)
 
-        self.pub = Pub("Captain's bar", 500)
+        self.pub = Pub("Captain's bar", 500, [self.drink_1, self.drink_2, self.drink_3])
 
 
     def test_pub_has_name(self):

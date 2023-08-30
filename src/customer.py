@@ -10,6 +10,6 @@ class Customer:
         self.wallet -= amount_owned
 
     
-    def buying(self, cost_of_drink):
+    def buying(self, drink):
 
-        self.wallet -= cost_of_drink
+        self.wallet -= drink
