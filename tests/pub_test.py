@@ -7,12 +7,10 @@ class TestPub(unittest.TestCase):
 
         self.pub = Pub("Captain's bar", 500)
 
-    def pub_has_name(self):
 
-        self.assertEqual("Captains bar", self.pub.name)
+    def test_pub_has_name(self):
+        self.assertEqual("Captain's bar", self.pub.name)
 
 
-    def pub_till(self):
-
+    def test_pub_till(self):
         self.assertEqual(500, self.pub.till)
-

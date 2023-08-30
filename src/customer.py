@@ -5,5 +5,11 @@ class Customer:
         self.wallet = wallet
 
 
-    def buying(self, cost):
-        self.wallet -= cost
+    def clear_my_tab(self, amount_owned):
+
+        self.wallet -= amount_owned
+
+    
+    def buying(self, cost_of_drink):
+
+        self.wallet -= cost_of_drink
