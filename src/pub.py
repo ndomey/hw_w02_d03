@@ -7,3 +7,5 @@ class Pub:
         self.drinks = drinks
 
 
+    def pay_in_till(self, drink):
+        self.till += drink

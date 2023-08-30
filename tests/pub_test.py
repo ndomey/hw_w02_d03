@@ -18,3 +18,7 @@ class TestPub(unittest.TestCase):
 
     def test_pub_till(self):
         self.assertEqual(500, self.pub.till)
+
+    def test_pay_in_till(self):
+        self.pub.pay_in_till(self.drink_2.price)
+        self.assertEqual(503, self.pub.till)
